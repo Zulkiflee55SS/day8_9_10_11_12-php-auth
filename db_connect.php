@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';          // ✅ ชื่อ host ของ XAMPP
-$dbname = 'user_auth';        // ✅ ชื่อฐานข้อมูลของคุณ (ตรวจใน phpMyAdmin)
-$username = 'root';           // ✅ ค่าเริ่มต้นใน XAMPP
-$password = '';               // ✅ ไม่มีรหัสผ่าน (ค่าว่าง)
+$host = 'localhost';
+$dbname = 'user_auth';
+$username = 'zulf';
+$password = '123456';             // ✅ ไม่มีรหัสผ่าน (ค่าว่าง)
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password, [
